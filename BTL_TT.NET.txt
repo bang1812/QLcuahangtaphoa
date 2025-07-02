@@ -1,0 +1,13 @@
+ 5.	Yêu cầu tạo form Giới thiệu các thành viên trong nhóm: gồm tên nhóm, họ tên các thành viên trong nhóm
+6.	Hiển thị dữ liệu lên datagridview cần select từ nhiều bảng để hiển thị dữ liệu cho người dùng sao cho giao diện thân thiện dễ sử dụng
+9.	Yêu cầu phải có chức năng đăng nhập, đăng xuất, đổi mật khẩu, và phân quyền người dùng 
+	Đăng nhập
+	Phân quyền người dùng: phân quyền 2 loại: nhân viên thông thường và người quản lý, người quản lý có thể thống kê số tiền bán hàng thu đươc của từng nhân viên trong ngày để tránh thất thoát tiền của cửa hàng
+	Quản lý loại hàng
+	Quán lý hàng hóa
+	Quản lý khách hàng
+	Chức năng chính: Quản lý hóa đơn bán hàng: lập hóa đơn bán hàng
+Khi khách hàng đến cửa hàng mua hàng nếu là khách hàng đại lý hoặc khách hàng thân thiết thì tiến hành thêm thông tin khách hàng vào bảng mua hàng, cho phép tìm kiếm các mặt hàng hiển thị lên một datagridview mặt hàng, cho khách hàng chọn hàng trên datagridview mặt hàng và thêm vào datagridview giỏ hàng, rồi nhập số lượng cho mặt hàng chọn, hoặc có thể nhập mã hàng vào textbox và số lượng vào textbox rồi thêm vào giỏ hàng. Tổng tiền tất cả các mặt hàng trong giỏ hàng sẽ được tính và hiển thị lên textbox tổng tiền phải thanh toán, có thêm textbox số tiền khách đưa để nhập và textbox số tiền trả lại khách hàng giúp nhân viên trả tiền khỏi nhầm lẫn. Khi kích vào nút lập hóa đơn sẽ thêm vào bảng Hóa đơn một dòng dữ liệu thông tin gồm số hóa đơn, ngày bán là ngày hiện thời hệ thống, mã khách hàng nhập trong textbox hoặc chọn trong combobox,  mã nhân viên là mã nhân viên đã đăng nhập vào hệ thống, và thêm vào bảng CT_Hoadon (chi tiết hóa đơn) các dòng dữ liệu với mã hàng, đơn giá bán, số lượng lấy trên datagridview giỏ hàng, số hóa đơn lấy trên textbox. 
+	Thống kê báo cáo: khi lập hóa đơn bán hàng cho phép xuất ra report hóa đơn bán hàng
+
+Xuất ra file excel cho biết số lượng hàng bán của mỗi mặt hàng trong hóa đơn theo mẫu 
